@@ -206,7 +206,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => 'D:\\PST-CMS-Backend\\PROJECT\\storage\\framework/cache/data',
+        'path' => 'D:\\PST-CMS-Backend\\FRELANCE\\storage\\framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -488,7 +488,7 @@
     ),
     'temporary_files' => 
     array (
-      'local_path' => 'D:\\PST-CMS-Backend\\PROJECT\\storage\\framework/cache/laravel-excel',
+      'local_path' => 'D:\\PST-CMS-Backend\\FRELANCE\\storage\\framework/cache/laravel-excel',
       'remote_disk' => NULL,
       'remote_prefix' => NULL,
       'force_resync_remote' => NULL,
@@ -502,13 +502,13 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => 'D:\\PST-CMS-Backend\\PROJECT\\storage\\app/public',
+        'root' => 'D:\\PST-CMS-Backend\\FRELANCE\\storage\\app/public',
         'throw' => false,
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => 'D:\\PST-CMS-Backend\\PROJECT\\storage\\app/public',
+        'root' => 'D:\\PST-CMS-Backend\\FRELANCE\\storage\\app/public',
         'url' => 'http://localhost/storage',
         'visibility' => 'public',
         'throw' => false,
@@ -528,7 +528,7 @@
     ),
     'links' => 
     array (
-      'D:\\PST-CMS-Backend\\PROJECT\\public\\storage' => 'D:\\PST-CMS-Backend\\PROJECT\\storage\\app/public',
+      'D:\\PST-CMS-Backend\\FRELANCE\\public\\storage' => 'D:\\PST-CMS-Backend\\FRELANCE\\storage\\app/public',
     ),
   ),
   'hashing' => 
@@ -609,13 +609,13 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => 'D:\\PST-CMS-Backend\\PROJECT\\storage\\logs/laravel.log',
+        'path' => 'D:\\PST-CMS-Backend\\FRELANCE\\storage\\logs/laravel.log',
         'level' => 'debug',
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => 'D:\\PST-CMS-Backend\\PROJECT\\storage\\logs/laravel.log',
+        'path' => 'D:\\PST-CMS-Backend\\FRELANCE\\storage\\logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
       ),
@@ -667,7 +667,7 @@
       ),
       'emergency' => 
       array (
-        'path' => 'D:\\PST-CMS-Backend\\PROJECT\\storage\\logs/laravel.log',
+        'path' => 'D:\\PST-CMS-Backend\\FRELANCE\\storage\\logs/laravel.log',
       ),
     ),
   ),
@@ -733,7 +733,7 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => 'D:\\PST-CMS-Backend\\PROJECT\\resources\\views/vendor/mail',
+        0 => 'D:\\PST-CMS-Backend\\FRELANCE\\resources\\views/vendor/mail',
       ),
     ),
   ),
@@ -839,7 +839,7 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => 'D:\\PST-CMS-Backend\\PROJECT\\storage\\framework/sessions',
+    'files' => 'D:\\PST-CMS-Backend\\FRELANCE\\storage\\framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -859,9 +859,9 @@
   array (
     'paths' => 
     array (
-      0 => 'D:\\PST-CMS-Backend\\PROJECT\\resources\\views',
+      0 => 'D:\\PST-CMS-Backend\\FRELANCE\\resources\\views',
     ),
-    'compiled' => 'D:\\PST-CMS-Backend\\PROJECT\\storage\\framework\\views',
+    'compiled' => 'D:\\PST-CMS-Backend\\FRELANCE\\storage\\framework\\views',
   ),
   'flare' => 
   array (
@@ -936,7 +936,7 @@
     array (
     ),
     'enable_runnable_solutions' => NULL,
-    'remote_sites_path' => 'D:\\PST-CMS-Backend\\PROJECT',
+    'remote_sites_path' => 'D:\\PST-CMS-Backend\\FRELANCE',
     'local_sites_path' => '',
     'housekeeping_endpoint_prefix' => '_ignition',
     'settings_file_path' => '',
